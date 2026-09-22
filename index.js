@@ -11,7 +11,7 @@ function calcORM(){
   // Epley 공식
   orm = ormWeight * (1 + ormReps / 30);
 
-  resultORM.innerHTML = "예상 1RM : " + orm.toFixed(1) + " kg";
+  // resultORM.innerHTML = "예상 1RM : " + orm.toFixed(1) + " kg";
 
   makeRMTable(orm);
 }
